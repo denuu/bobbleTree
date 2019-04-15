@@ -1,0 +1,25 @@
+.navigation {
+    position: relative;
+    width: calc(100vw - 120px);
+    margin-left: calc(120px);
+
+    .navList {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+
+        li {
+            display: inline;
+
+            a {
+                display: block;
+                color: #fff;
+                text-decoration: none;
+                padding: 1.5em 3em;
+            }
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.feed {
+    width: calc(100% - 10em);
+    position: relative;
+    margin: 0 auto;
+
+    .feedCard {
+        text-align: left;
+        background: #ffeeff;
+        padding: 1.5em 3em;
+        max-width: 480px;
+        margin: 1em 0;
+
+        h3,
+        p {
+            color: #000;
+
+            & .location {
+                color: #4ba7b5;
+            }
+
+            & .flavour {
+                color: orange;
+            }
+        }
+    }
+}

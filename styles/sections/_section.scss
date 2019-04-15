@@ -1,0 +1,24 @@
+.section {
+    background: #4ba7b5;
+    width: calc(100vw - 120px);
+    height: 100vh;
+    margin-left: 120px;
+
+    h1 {
+        color: #fff;
+        font-weight: normal;
+
+        & strong {
+            color: #f0b088;
+        }
+    }
+
+    h2 {
+        color: #fff;
+        font-style: bold;
+    }
+
+    p {
+        color: #fff;
+    }
+}

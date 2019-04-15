@@ -1,0 +1,20 @@
+@import "./section";
+@import "../components/_feed.scss";
+
+.title {
+    height: calc(100vh - 300px);
+    margin-left: 5em;
+    vertical-align: middle;
+    text-align: left;
+
+    h1 {
+        font-size: 3rem;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+}
